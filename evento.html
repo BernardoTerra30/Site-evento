@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+    <header>
+        <p> Sumário: </p>
+        <nav class=" menu">
+            <ul>
+                <li><a href='#sobre'> Início </a></li>
+                <li><a href='#programação'> Programação </a> </li>
+                <li><a href='#palestrantes'> Palestrantes </a> </li>
+                <li><a href="#inscrição"> Inscrição </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1> GamedDev Sul 2026 </h1>
+            <img src="img/gamesul.png" alt="Imagem do evento" width="600" height="350">
+            <p> Será realizado no dia 18 de Outubro de 2026 </p>
+            <p> Local: Cidec SUL - FURG </p>
+            <p> O GameDev Sul 2026 é um evento fictício voltado para estudantes, gamers e iniciantes na área de tecnologia que desejam aprender mais sobre criação de jogos, eSports e desenvolvimento web. O evento contará com palestras, oficinas práticas e uma competição de ideias para novos games. </p>
+        </section>
+        <section id="programação">
+            <h2> Programação </h2>
+            <table border ='2' style="text-align: center">
+
+                <caption></caption>
+                <tr>
+                    <th> Horário </th>
+                    <th> Atividade </th>
+                    <th> Palestrante </th>
+                </tr>
+
+                <tr>
+                    <td> 9:00 </td>
+                    <td> Abertura do evento </td>
+                    <td> Equipe GameDev Sul </td>
+                </tr>
+
+                <tr>
+                    <td> 10:00 </td>
+                    <td> Desenvolvimento de jogos </td>
+                    <td> Lucas Almeida </td>
+                </tr>
+
+                <tr>
+                    <td> 13:30 </td>
+                    <td> Oficina: Criando seu jogo </td>
+                    <td> Marina Costa </td>
+                </tr>
+
+                <tr> 
+                    <td> 15:00 </td>
+                    <td> eSports </td>
+                    <td> Rafael Souza </td>
+                </tr>
+
+                <tr>
+                    <td> 17:00 </td>
+                    <td> Apresentação dos projetos finais </td>
+                    <td> Organização </td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section id="palestrantes">
+            <h2> Palestrantes </h2>
+            <ul> 
+                <li>
+                    <img src="img/lucas.jpg" alt="Foto do palestrante Lucas Almeida">
+                    <h3> Lucas Almeida </h3>
+                    <p>
+                        Desenvolvedor indie e criador de jogos 2D para computador e celular.
+                    </p>
+                </li>
+
+                <li>
+                    <img src="img/marina.jpg" alt="Foto da palestrante Marina Costa">
+                    <h3> Marina Costa </h3>
+                    <p> 
+                        Programadora front-end e professora de lógica de programação para iniciantes.
+                    </p>
+                </li>
+
+                <li>
+                    <img src="img/rafael.jpg" alt=" Foto do palestrante Rafael Souza">
+                    <h3> Rafael Souza </h3>
+                    <p>
+                        Analista de eSports e comentarista de campeonatos de jogos competitivos.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="inscrição"> 
+            <h2> Inscrição </h2>
+            <form> 
+                <label for="n"> Nome* </label>
+                <input type="text" id="n" required>
+
+            <br><br>
+
+                <label for="e"> Email* </label>
+                <input type="email" id="e" required>
+
+            <br><br>
+
+                <label for="number"> Celular* </label>
+                <input type="number" id="number">
+
+            <br><br>
+
+                <label for="msg"> Como descobriu o evento? </label>
+            <br>
+                <textarea
+                    id="msg"
+                    rows="4"
+                    placeholder="Escreva sua mensagem..."
+                ></textarea>
+
+            <br><br>
+
+            <button type="submit"> Enviar </button>
+            </form>
+        </section>
+    </main>
+
+</html>
